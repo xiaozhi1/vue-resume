@@ -1,4 +1,4 @@
-var app = new Vue({
+let app = new Vue({
     el: '#app',
     data: {
         editingName: false,
@@ -24,12 +24,6 @@ var app = new Vue({
             }else{
                 this.saveResume()
             }
-            // let User = AV.Object.extend('User')
-            // let user = new User()
-            // user.set('resume',this.resume)
-            // user.save().then(function (todo) {
-            // }, function (error) {
-            // })
         },
         saveResume(){
 
